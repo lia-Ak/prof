@@ -43,16 +43,16 @@ body {
         height: 24px;
         color: #ffffff;
       }
- .Content {
-    width: 741px;
-    height: 196px;
-    top: 329px;
-    left: 370px;
-    color: #202020;
-    position: absolute;
-    text-align: center;
-    font-style: normal;
-    font-size: 14vw;
-    line-height: 16vw;
- }
+ .logo-a {
+  display: flex;
+  gap: 25px;
+  display: grid;
+  margin-top: 20px;
   
+ }
+ .logo-b {
+  display: flex;
+  gap: 25px;
+  display: flex;
+
+ }
