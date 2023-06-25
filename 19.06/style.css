@@ -63,3 +63,80 @@ body {
   display: flex;
   gap: 40px;
 }
+.bnt {
+  width: 235px;
+  height: 60px;
+  left:369px;
+  top: 595px;
+  background: #5528ff;
+  border-radius: 10px;
+  width: 119px;
+  height: 33px;
+  left: 427px;
+  top: 611px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-top: 70px;
+ }
+
+.titl {
+max-width: 1181px;
+height: 427px;
+margin: 53px 10vw 117px 10vw;
+width: 70%;
+justify-content: space-between;
+}
+.text {
+  width: 1185px;
+  height: 66px;
+  left: 370px;
+  top: 228px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 65px;
+  text-align: center;
+  color: #202020;
+}
+.t {
+  width: 741px;
+  height: 196px;
+  left: calc( 50% - 741px / 2 - 219.5px);
+  top: 329px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 52px;
+  color: #4f4f4f;
+  margin-top: 35px;
+
+}
+
+
+  .content-btn {
+  width: 235px;
+  height: 60px;
+  left: 369px;
+  top: 595px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  width: 235px;
+  height: 60px;
+  left:369px;
+  top: 611px;
+  background: #5528ff;
+  border-radius: 10px;
+ 
+  
+}
