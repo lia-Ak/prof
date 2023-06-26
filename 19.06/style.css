@@ -10,10 +10,8 @@ body {
   justify-content: space-between;
   max-width: 1181px;
   height: 58px;
-  margin: 53px 5% 117px 5%;
-  width: 80%;
+  margin: 53px 10% 117px 7%;
 }
-
 
 .logo-container {
   display: flex;
@@ -24,6 +22,15 @@ body {
   display: flex;
   list-style: none;
   gap: 37px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #202020;
+}
+
+.list-container a {
+  text-decoration: none;
+  color: #000000;
 }
 
 .title {
@@ -46,78 +53,47 @@ body {
   color: #ffffff;
 }
 
+/* content */
+
+.content {
+  margin: 0 10% 100px 7%;
+}
+
+.content h1 {
+  color: #202020;
+  font-size: 57px;
+  font-weight: 700;
+}
+
+.content p {
+  color: #4f4f4f;
+  font-size: 32px;
+  line-height: 161%;
+  max-width: 741px;
+}
+
+.content button {
+  border: none;
+  width: 235px;
+  height: 60px;
+  border-radius: 10px;
+  background: #5528ff;
+  color: #fff;
+  font-size: 24px;
+}
+
+
 .footer-container {
-  background: #f7f7f7;
+  box-sizing: border-box;
+  width: 100%;
   display: flex;
+  padding: 20px 10% 20px 7%;
   justify-content: space-between;
-  position: fixed;
-  left: o;
-  height: 100px;
-  align-items: center;
-  padding: 0 10% 0 10%;
-  width: 80%;
-  max-width: 1181px;
-  bottom: 0;
+  background: #f7f7f7;
 }
 
 .socialmedia-container {
   display: flex;
+  align-items: center;
   gap: 40px;
-}
-
-
-.titl {
-  max-width: 1181px;
-  height: 427px;
-  margin: 100px 5% 200px 5%;
-  display: block;
-  width: fit-content;
-}
-
-.text {
-  font-family: "Ubuntu";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 57px;
-  line-height: 65px;
-
-  color: #202020;
-}
-
-.t {
-  width: 741px;
-  height: 196px;
-  left: calc(50% - 741px / 2 - 219.5px);
-  top: 329px;
-
-  font-family: "Ubuntu";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 52px;
-  color: #4f4f4f;
-  margin-top: 35px;
-
-}
-
-
-.content-btn {
-  width: 235px;
-  height: 60px;
-  left: 369px;
-  top: 595px;
-  font-family: "Ubuntu";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  color: #ffffff;
-  width: 235px;
-  height: 60px;
-  left: 369px;
-  top: 611px;
-  background: #5528ff;
-  border-radius: 10px;
-
-
 }
