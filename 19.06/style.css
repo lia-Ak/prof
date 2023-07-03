@@ -57,19 +57,60 @@ body {
 
 .content {
   margin: 0 10% 100px 7%;
+ width: 1186px;
+height: 427px;
+top: 228px;
+left: 369px;
+border-radius: 10px;
+
+
 }
 
+
+/*.content-text {
+  width: 1185px;
+height: 297px;
+top: 228px;
+left: 370px;
+align-items: center;
+
+
+
+
+}*/
+
+
+
 .content h1 {
-  color: #202020;
+ /* color: #202020;
   font-size: 57px;
   font-weight: 700;
+  width: 741px;*/
+  width: 1185px;
+height: 66px;
+top: 228px;
+left: 370px;
+font-family: Ubuntu;
+align-items: center;
+font-weight: 600;
+text-align: center;
+
+
+
 }
 
 .content p {
-  color: #4f4f4f;
+ color: #4f4f4f;
   font-size: 32px;
   line-height: 161%;
   max-width: 741px;
+  width: 741px;
+height: 196px;
+top: 329px;
+left: 370px;
+
+
+
 }
 
 .content button {
@@ -96,6 +137,10 @@ body {
   display: flex;
   gap: 40px;
   align-items: center;
+  margin-top: 100px;
+  height: 18px;
+  flex-shrink: 0;
+  gap: 40px;
 }
 
 
@@ -108,57 +153,166 @@ body {
 }
 
 .single-service-container {
-  max-width: 400px;
+  max-width: 280px;
+  display: flex;
+  height: 100px;
 
 }
 
+
+
 .single-service-container p {
-  width: 292px;
-  height: 111px;
-  top: 873px;
-  left: 504px;
+  color: #b2b2b2;
+  font-size: 14px;
+  font-family: Ubuntu;
+  max-width: fit-content;
+
+
 }
 
 .single-service-container h2 {
-  width: 267px;
-  height: 33px;
-  top: 873px;
-  left: 504px;
-  color: #000000;
+  color: #000;
 
-  width: 400;
-  size: 28px;
-  line-height: 32.17px;
+  font-family: Ubuntu;
+  max-width: 700px;
+  max-height: 33px;
+
 }
+
+.single-service-container img {
+  margin-top: 70px;
+  height: 60px;
+}
+
+
+
 
 
 .spliter {
   display: flex;
   align-items: center;
   margin-bottom: 100px;
-  margin-top: 150px;
+  margin-top: 100px;
+  
+  flex-shrink: 0;
+  
+  height: 18px;
+  top: 755px;
+  
 }
 
 .spliter :first-child {
-  width: 5%;
-  height: 1px;
+width: 5%;
+  height: 0.5px;
+  flex-shrink: 0;
   background-color: #C2C2C2;
-}
+  width: 350px;
+height: 0.5px;
+top: 9px;
+left: 500px;
+
+} 
 
 .spliter span {
-  display: block;
-  min-width: max-content;
-  margin: 5px 40px 7px 40px;
+
+ /* max-width: max-content;
   font-family: 'ubuntu';
-  font-weight: 300;
-  font-size: 14px;
+  font-weight: 92px;
+  font-size: 17px;
   color: #C2C2C2;
+  margin-left: 19px;
+  margin-right: 47px;
+  left: 369px;*/
+  width: 92px;
+  height: 17px;
+  left: 369px;
+  font-family: Ubuntu;
+  font-weight: 300px;
+  background: #C2C2C2;
+  max-width: max-content
+  ;
 
 }
 
 .spliter:last-child {
-  width: 100%;
-  height: 1px;
+  width: 1420px;
+
+  height: 0.5px;
+  flex-shrink: 0;
   background-color: #C2C2C2;
+} 
+
+
+.clients-container {
+  display: flex;
+  align-items: center;
+
+  flex-shrink: 0;
+  max-width: 1920px;
+  height: 328px;
+  margin: 60px 20% 0px 20%;
+  justify-content: space-between;
+  display: flex;
 }
+
+.clients {
+  width: 1081px;
+  height: 249px;
+  top: 1353px;
+  left: 420px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.clients-1 {
+  max-width: 1100px;
+  height: 60px;
+  gap: 70px;
+  top: 1347px;
+  left: 375px;
+  
+   
+
+}
+
+.clients-2 {
+width: 1170px;
+height: 60px;
+top: 1447px;
+left: 375px;
+
+}
+
+
+.clients-3 {
+  width: 1170px;
+height: 60px;
+top: 1547px;
+left: 375px;
+
+}
+
+.logo-trvl {
+  width: 62px;
+  height: 54px;
+  top: 1350px;
+  left: 780px;
+  color: rgba(131, 137, 151, 1);
+}
+
+.rectangle {
+  width: 1929px;
+height: 80px;
+top: 1397px;
+left: 15px;
+
+}
+
+
+
+
+
+
 
